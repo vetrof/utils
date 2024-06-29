@@ -1,6 +1,6 @@
 package utils
 
-func Contains(a []string, x string) bool {
+func Containss(a []string, x string) bool {
 	for _, n := range a {
 		if x == n {
 			return true
@@ -9,7 +9,7 @@ func Contains(a []string, x string) bool {
 	return false
 }
 
-func ContainsInt(a []int, x int) bool {
+func ContainsIntt(a []int, x int) bool {
 	for _, n := range a {
 		if x == n {
 			return true
